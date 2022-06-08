@@ -58,4 +58,7 @@ if __name__ == "__main__":
     # we put a sequence here so your console doesnt look like shit after you use this tool lmao
     print(output, '[0;0;0m')
     ppc.copy(f'```ansi\n{output}\n```')
-    print("Copied ANSI code to clipboard! Now paste it into a Discord message :)", '\nCoded by @lance#8011')
+    print("Copied ANSI code to clipboard! Now paste it into a Discord message :)")
+    if len(output) > 1000:
+        print("WARNING: The output was greater than 1000 characters. The ANSI may not display in Discord at all. As a rule of thumb, try to keep the input text < 100 characters.")
+    print("Coded by @lance#8011")
