@@ -11,7 +11,8 @@ At the moment of writing this readme, Discord mobile does NOT support ANSI forma
 ## Discord limits
 It appears that ANSI outputs over 1000 characters will not display in Discord. You will be warned when this happens, and you will notice it when Discord does not generate a proper preview of the ANSI when you paste the code.  
 
-## Usage
+## Usage  
+First install requirements, `pip install pyperclip`, or `pip install -r requirements.txt`. Then you are good to go!  
 `python rainbowme.py hello world!`  
 Or if you want to specify a background color:  
 `python rainbowme.py hello world! -bg white`  
