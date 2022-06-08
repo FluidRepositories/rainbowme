@@ -22,4 +22,5 @@ You can even add all that together too:
 `python rainbowme.py hello world! -bg white -style underline`  
 After running the command, everything will be copied to your clipboard, in a format that is in a Discord codeblock. So you can just ctrl+v once and send your message, no need to make your own codeblock!  
   
- 
+## Issues  
+You are expected to have a basic understanding of Python and CLI usage before using this tool. I will not help you learn the ropes, and as such, please do not open issues for non-bugs, or for problems that do not directly pertain to "rainbow me". There is a plethora of sources you can learn from that do not involve taxing my personal time and distracting me from development of this project.
