@@ -20,6 +20,7 @@ Or if you want to specify a style for the text:
 `python rainbowme.py hello world! -style underline`  
 You can even add all that together too:  
 `python rainbowme.py hello world! -bg white -style underline`  
+  
 After running the command, everything will be copied to your clipboard, in a format that is in a Discord codeblock. So you can just ctrl+v once and send your message, no need to make your own codeblock!  
   
 ## Issues  
